@@ -5,3 +5,198 @@
   margin: 0;
   padding: 0;
 }
+
+.conteiner{
+  width: 1200px;
+  margin: 0 auto;
+  height: 3000px;
+  background-color: red;
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+.pdlr{
+  padding: 0 150px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.button{
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.button-type-a{
+  background-color: red;
+  color: #fff;
+}
+
+.button-type-b{
+  color: red;
+  border: 2px solid red;
+}
+
+/* header */
+
+header{
+  width: 1200px;;
+  height: 140px;
+  background-color: white;
+}
+
+/* header-top / header-bottom */
+
+.header-content{
+  width: 1200px;
+  height: 70px;
+  line-height: 70px;
+
+}
+
+/* header-top */
+
+.header-top{
+  border-bottom: 1px solid black;
+}
+
+/* header-top-left */
+
+.header-top-left{
+  width: 400px;
+}
+
+.header-top-left > div:first-of-type{
+  margin-right: 10px;
+}
+
+.header-top-left > div:nth-child(2) > a{
+  text-decoration: none;
+  color: black;
+}
+
+/* / header-top-left */
+/* header-top-right */
+
+.header-top-right{
+  width: 50%;
+}
+
+.header-top-right .button{
+  height: 40px;
+  font-size: 13px;
+  line-height: 40px;
+  padding: 0 10px;
+  margin-top: 15px;
+}
+
+.header-top-right .button-type-a{
+  width: 140px;
+  margin-left: 15px;
+}
+
+.header-top-right .button-type-b{
+  width: 70px;
+}
+
+.header-top-right > div:last-child{
+  font-size: 40px;
+  color: lightgreen;
+  margin-right: 15px;
+}
+
+/* /header-top-right */
+/* / header-top */
+/* header-bottom */
+/* header-bottom-left */
+
+header .header-bottom-left{
+  width: 20%;
+  padding-top: 10px;
+}
+
+/* / header-bottom-left */
+/* header-bottom-right */
+
+.header-bottom-right ul li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header-bottom-right li a{
+  color: black;
+}
+
+/* / hider-bottom-right */
+/* / header-bottom */
+/* main */
+/* prima sezione main */
+
+main .section-one{
+  height: 500px;
+  background-color: #FF7A59;
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  background-position: right;
+  border-bottom: 3px solid black;
+}
+
+.section-one > div{
+  width: 700px;
+  padding-top: 50px;
+}
+
+.section-one > div *{
+  margin-bottom: 20px;
+
+}
+.section-one > div h1{
+  font-size: 30px;
+}
+
+.section-one > div span{
+  font-size: 9px;
+}
+
+.section-one .button{
+  width: 150px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  padding: 0 10px;
+
+}
+
+/* / prima sezione main */
+/* seconda sezione main */
+/* prima parte */
+
+main .section-two{
+  height: 1000px;
+  background-color: #CBD6E2;
+  text-align: center;
+}
+
+main .section-two *{
+  padding-top: 20px;
+}
+
+main .section-two > img{
+  margin-top: 20px;
+}
+
+/* / prima parte */
